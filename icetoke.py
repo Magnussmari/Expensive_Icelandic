@@ -157,10 +157,19 @@ def main():
         )
     
     st.markdown("""
-        This application combines token analysis and cost estimation for GPT-4o model usage:
-        - **Input tokens**: $2.50 per 1M tokens (standard)
+        ## The Hidden Cost of Icelandic in AI: A Token Analysis
+        *By [Magnus Smari](https://www.smarason.is) (2024)*
+
+        Based on my analysis of 101 parallel English-Icelandic sentence pairs, Icelandic text consistently requires more tokens when processed by GPT-4o. The data shows that Icelandic uses on average 187% more tokens than English for the same content, with typical Icelandic sentences requiring 40 tokens compared to English's 14 tokens.
+
+        At GPT-4o's current rates ($2.50 per million input tokens, $10.00 per million output tokens), this token disparity creates a significant cost difference for Icelandic language processing. This analysis also reveals implications for context window utilization, where Icelandic content effectively reduces the usable space in AI interactions.
+
+        The complete dataset, analysis code, and interactive visualization tools are available in my open-source repository. Feel free to explore, use, or build upon this research to better understand token economics in different languages.
+
+        **Current GPT-4o Pricing:**
+        - Input tokens: $2.50 per 1M tokens (standard)
         
-        **Pricing source:** [OpenAI](https://openai.com/api/pricing/) (2.11.2024)
+        *Pricing source: [OpenAI](https://openai.com/api/pricing/) (2.11.2024)*
     """)
     
     # Tabs for navigation
