@@ -7,33 +7,19 @@ import plotly.graph_objects as go
 
 # Page config must be first Streamlit command
 st.set_page_config(
-    page_title="Expensive Icelandic",
-    layout="wide",
-    initial_sidebar_state="expanded"
+    page_title="Dýr íslenska - Token Cost Analysis",
+    page_icon="💰",
+    layout="wide"
 )
 
-# GPT-4o Optimized Pricing (per 1M tokens)
+# GPT-4o Pricing (per 1M tokens)
 PRICING = {
-    'standard': {
-        'input': 2.50,  # $2.50 per 1M input tokens for GPT-4o
-        'output': 10.00  # $10.00 per 1M output tokens for GPT-4o
-    },
-    'batch': {
-        'input': 1.25,  # $1.25 per 1M input tokens for GPT-4o (cached)
-        'output': 10.00  # $10.00 per 1M output tokens for GPT-4o
-    }
+    'input': 2.50  # $2.50 per 1M input tokens
 }
 
-# Define pricing constants for calculations
-PRICE_PER_1K_TOKENS = {
-    'input': PRICING['standard']['input'] / 1000,   # $2.50 per 1M tokens = $0.0025 per 1K tokens
-    'output': PRICING['standard']['output'] / 1000  # $10.00 per 1M tokens = $0.01 per 1K tokens
-}
-
-# For batch pricing
-BATCH_PRICE_PER_1K_TOKENS = {
-    'input': PRICING['batch']['input'] / 1000,     # $1.25 per 1M tokens = $0.00125 per 1K tokens
-    'output': PRICING['batch']['output'] / 1000    # $10.00 per 1M tokens = $0.01 per 1K tokens
+# Define pricing constant for calculations
+PRICE_PER_1M_TOKENS = {
+    'input': PRICING['input']  # $2.50 per 1M tokens
 }
 
 def count_tokens(text, encoding):
@@ -51,7 +37,7 @@ def get_encoding():
     return tiktoken.encoding_for_model('gpt-4o')
 
 @st.cache_data
-def load_data(price_per_1k_tokens):
+def load_data(price_per_1m_tokens):
     try:
         df = pd.read_csv('data/sentance_pairs_tokenized.csv')
         
@@ -66,16 +52,14 @@ def load_data(price_per_1k_tokens):
             'language': ['English'] * len(df),
             'text': df['english'],
             'tokens': df['english_tokens'],
-            'estimated_input_cost': df['english_tokens'] * price_per_1k_tokens['input'],
-            'estimated_output_cost': df['english_tokens'] * price_per_1k_tokens['output']
+            'estimated_input_cost': df['english_tokens'] * price_per_1m_tokens['input'] / 1_000_000
         })
         
         icelandic_rows = pd.DataFrame({
             'language': ['Icelandic'] * len(df),
             'text': df['icelandic'],
             'tokens': df['icelandic_tokens'],
-            'estimated_input_cost': df['icelandic_tokens'] * price_per_1k_tokens['input'],
-            'estimated_output_cost': df['icelandic_tokens'] * price_per_1k_tokens['output']
+            'estimated_input_cost': df['icelandic_tokens'] * price_per_1m_tokens['input'] / 1_000_000
         })
         
         df_processed = pd.concat([english_rows, icelandic_rows], ignore_index=True)
@@ -104,7 +88,7 @@ def main():
     encoding = get_encoding()
     
     # Load the data
-    df, stats = load_data(PRICE_PER_1K_TOKENS)
+    df, stats = load_data(PRICE_PER_1M_TOKENS)
     
     # Check if data loaded successfully before proceeding
     if df is None:
@@ -161,8 +145,7 @@ def main():
     with col1:
         st.markdown("""
             <div class="hero-section">
-                <h1>💬 Super GPT-4o Dashboard</h1>
-                <p>A comprehensive tool for analyzing token usage and cost in Icelandic-English translations</p>
+                <h1>💬 GPT-4o Token Cost Dashboard for Icelandic</h1>
             </div>
         """, unsafe_allow_html=True)
     with col2:
@@ -175,8 +158,7 @@ def main():
     
     st.markdown("""
         This application combines token analysis and cost estimation for GPT-4o model usage:
-        - **Input tokens**: $2.50 per 1M tokens (standard), $1.25 per 1M tokens (batch)
-        - **Output tokens**: $10.00 per 1M tokens
+        - **Input tokens**: $2.50 per 1M tokens (standard)
         
         **Pricing source:** [OpenAI](https://openai.com/api/pricing/) (2.11.2024)
     """)
@@ -208,10 +190,8 @@ def main():
                 token_difference = icelandic_tokens - english_tokens
                 
                 # Calculate costs
-                icelandic_input_cost = calculate_cost(icelandic_tokens, PRICING['standard']['input'])
-                icelandic_output_cost = calculate_cost(icelandic_tokens, PRICING['standard']['output'])
-                english_input_cost = calculate_cost(english_tokens, PRICING['standard']['input'])
-                english_output_cost = calculate_cost(english_tokens, PRICING['standard']['output'])
+                icelandic_input_cost = calculate_cost(icelandic_tokens, PRICING['input'])
+                english_input_cost = calculate_cost(english_tokens, PRICING['input'])
                 
                 # Display results in two columns
                 col1, col2 = st.columns(2)
@@ -228,7 +208,6 @@ def main():
                         st.markdown('<div class="cost-box">', unsafe_allow_html=True)
                         st.markdown('<div class="header-text">GPT-4o Costs:</div>', unsafe_allow_html=True)
                         st.markdown(f"Input: ${icelandic_input_cost:.6f}")
-                        st.markdown(f"Output: ${icelandic_output_cost:.6f}")
                         st.markdown("</div>", unsafe_allow_html=True)
                 
                 with col2:
@@ -243,7 +222,6 @@ def main():
                         st.markdown('<div class="cost-box">', unsafe_allow_html=True)
                         st.markdown('<div class="header-text">GPT-4o Costs:</div>', unsafe_allow_html=True)
                         st.markdown(f"Input: ${english_input_cost:.6f}")
-                        st.markdown(f"Output: ${english_output_cost:.6f}")
                         st.markdown("</div>", unsafe_allow_html=True)
                 
                 # Comparison section
@@ -362,54 +340,39 @@ def main():
         # Add pricing information
         st.markdown("""
         ### GPT-4o Pricing Information
-        - Input tokens: $2.50 per 1M tokens (Standard), $1.25 per 1M tokens (Batch)
-        - Output tokens: $10.00 per 1M tokens
+        - Input tokens: $2.50 per 1M tokens (Standard)
         
         *Pricing source: OpenAI (as of February 2024)*
         """)
         
         # Calculate total costs
-        eng_input_cost = stats['total_eng_tokens'] * PRICE_PER_1K_TOKENS['input']
-        ice_input_cost = stats['total_ice_tokens'] * PRICE_PER_1K_TOKENS['input']
-        eng_output_cost = stats['total_eng_tokens'] * PRICE_PER_1K_TOKENS['output']
-        ice_output_cost = stats['total_ice_tokens'] * PRICE_PER_1K_TOKENS['output']
+        eng_input_cost = stats['total_eng_tokens'] * PRICE_PER_1M_TOKENS['input']
+        ice_input_cost = stats['total_ice_tokens'] * PRICE_PER_1M_TOKENS['input']
         
         st.markdown("""
         ### Total Cost Analysis
         
         #### English Text
         - Input cost: ${:.2f}
-        - Output cost: ${:.2f}
-        - Total cost: ${:.2f}
         
         #### Icelandic Text
         - Input cost: ${:.2f}
-        - Output cost: ${:.2f}
-        - Total cost: ${:.2f}
         
         #### Cost Difference
         - Input difference: ${:.2f}
-        - Output difference: ${:.2f}
-        - Total difference: ${:.2f}
         - Percentage increase: {:.1f}%
         """.format(
-            eng_input_cost,
-            eng_output_cost,
-            eng_input_cost + eng_output_cost,
-            ice_input_cost,
-            ice_output_cost,
-            ice_input_cost + ice_output_cost,
-            ice_input_cost - eng_input_cost,
-            ice_output_cost - eng_output_cost,
-            (ice_input_cost + ice_output_cost) - (eng_input_cost + eng_output_cost),
-            ((ice_input_cost + ice_output_cost) - (eng_input_cost + eng_output_cost)) / (eng_input_cost + eng_output_cost) * 100
+            eng_input_cost / 1_000_000,  # Convert to actual cost
+            ice_input_cost / 1_000_000,  # Convert to actual cost
+            (ice_input_cost - eng_input_cost) / 1_000_000,  # Convert difference to actual cost
+            ((ice_input_cost - eng_input_cost) / eng_input_cost * 100)  # Calculate percentage
         ))
         
         # Add cost comparison visualization
         cost_fig = px.bar(
             df.groupby('language').sum().reset_index(),
             x=['English', 'Icelandic'],
-            y=['estimated_input_cost', 'estimated_output_cost'],
+            y=['estimated_input_cost'],
             barmode='group',
             title='Estimated Costs per Language (USD)',
             labels={
@@ -493,10 +456,8 @@ def main():
         estimated_ice_tokens = total_words * ice_tokens_per_word
         
         # Calculate costs for research paper
-        eng_input_cost_paper = estimated_eng_tokens * PRICE_PER_1K_TOKENS['input']
-        ice_input_cost_paper = estimated_ice_tokens * PRICE_PER_1K_TOKENS['input']
-        eng_output_cost_paper = estimated_eng_tokens * PRICE_PER_1K_TOKENS['output']
-        ice_output_cost_paper = estimated_ice_tokens * PRICE_PER_1K_TOKENS['output']
+        eng_input_cost_paper = estimated_eng_tokens * PRICE_PER_1M_TOKENS['input']
+        ice_input_cost_paper = estimated_ice_tokens * PRICE_PER_1M_TOKENS['input']
         
         st.markdown("""
         ### Cost Analysis: 20-Page Research Paper
@@ -507,20 +468,14 @@ def main():
         #### English Research Paper
         - Estimated tokens: {:,.0f}
         - Input cost: ${:.2f}
-        - Output cost: ${:.2f}
-        - Total cost: ${:.2f}
         
         #### Icelandic Research Paper
         - Estimated tokens: {:,.0f}
         - Input cost: ${:.2f}
-        - Output cost: ${:.2f}
-        - Total cost: ${:.2f}
         
         #### Cost Difference
         - Additional tokens needed: {:,.0f}
         - Extra input cost: ${:.2f}
-        - Extra output cost: ${:.2f}
-        - Total extra cost: ${:.2f}
         - Percentage increase: {:.1f}%
         
         This means processing an Icelandic research paper costs about ${:.2f} more than the same paper in English.
@@ -529,19 +484,13 @@ def main():
             stats['sample_count'],
             total_words,
             estimated_eng_tokens,
-            eng_input_cost_paper,
-            eng_output_cost_paper,
-            eng_input_cost_paper + eng_output_cost_paper,
+            eng_input_cost_paper / 1_000_000,  # Convert to actual cost
             estimated_ice_tokens,
-            ice_input_cost_paper,
-            ice_output_cost_paper,
-            ice_input_cost_paper + ice_output_cost_paper,
+            ice_input_cost_paper / 1_000_000,  # Convert to actual cost
             estimated_ice_tokens - estimated_eng_tokens,
-            ice_input_cost_paper - eng_input_cost_paper,
-            ice_output_cost_paper - eng_output_cost_paper,
-            (ice_input_cost_paper + ice_output_cost_paper) - (eng_input_cost_paper + eng_output_cost_paper),
-            ((ice_input_cost_paper + ice_output_cost_paper) - (eng_input_cost_paper + eng_output_cost_paper)) / (eng_input_cost_paper + eng_output_cost_paper) * 100,
-            (ice_input_cost_paper + ice_output_cost_paper) - (eng_input_cost_paper + eng_output_cost_paper),
+            (ice_input_cost_paper - eng_input_cost_paper) / 1_000_000,  # Convert difference to actual cost
+            ((ice_input_cost_paper - eng_input_cost_paper) / eng_input_cost_paper * 100),
+            (ice_input_cost_paper - eng_input_cost_paper) / 1_000_000,  # Convert difference to actual cost
             estimated_ice_tokens - estimated_eng_tokens
         ))
         
@@ -564,11 +513,9 @@ def main():
         est_eng_tokens = word_count * eng_tokens_per_word
         est_ice_tokens = word_count * ice_tokens_per_word
         
-        # Calculate costs
-        est_eng_input_cost = est_eng_tokens * PRICE_PER_1K_TOKENS['input']
-        est_eng_output_cost = est_eng_tokens * PRICE_PER_1K_TOKENS['output']
-        est_ice_input_cost = est_ice_tokens * PRICE_PER_1K_TOKENS['input']
-        est_ice_output_cost = est_ice_tokens * PRICE_PER_1K_TOKENS['output']
+        # Calculate costs (divide by 1M to get cost in dollars)
+        est_eng_input_cost = (est_eng_tokens * PRICE_PER_1M_TOKENS['input']) / 1_000_000
+        est_ice_input_cost = (est_ice_tokens * PRICE_PER_1M_TOKENS['input']) / 1_000_000
         
         # Display results in columns
         calc_col1, calc_col2 = st.columns(2)
@@ -577,43 +524,35 @@ def main():
             st.markdown("""
             #### English Estimates
             - Estimated tokens: {:,.0f}
-            - Input cost: ${:.2f}
-            - Output cost: ${:.2f}
-            - Total cost: ${:.2f}
+            - Input cost: ${:.4f}
             """.format(
                 est_eng_tokens,
-                est_eng_input_cost,
-                est_eng_output_cost,
-                est_eng_input_cost + est_eng_output_cost
+                est_eng_input_cost
             ))
         
         with calc_col2:
             st.markdown("""
             #### Icelandic Estimates
             - Estimated tokens: {:,.0f}
-            - Input cost: ${:.2f}
-            - Output cost: ${:.2f}
-            - Total cost: ${:.2f}
+            - Input cost: ${:.4f}
             """.format(
                 est_ice_tokens,
-                est_ice_input_cost,
-                est_ice_output_cost,
-                est_ice_input_cost + est_ice_output_cost
+                est_ice_input_cost
             ))
         
         # Show difference
         st.markdown("""
         #### Difference
         - Additional tokens needed: {:,.0f}
-        - Extra cost: ${:.2f}
+        - Extra cost: ${:.4f}
         - Percentage increase: {:.1f}%
         - Context window impact: {:,.0f} fewer tokens available
         
         *Note: Estimates based on average token-to-word ratios from our analysis.*
         """.format(
             est_ice_tokens - est_eng_tokens,
-            (est_ice_input_cost + est_ice_output_cost) - (est_eng_input_cost + est_eng_output_cost),
-            ((est_ice_input_cost + est_ice_output_cost) - (est_eng_input_cost + est_eng_output_cost)) / (est_eng_input_cost + est_eng_output_cost) * 100,
+            est_ice_input_cost - est_eng_input_cost,
+            ((est_ice_input_cost - est_eng_input_cost) / est_eng_input_cost * 100),
             est_ice_tokens - est_eng_tokens
         ))
         
