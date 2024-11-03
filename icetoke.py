@@ -157,9 +157,11 @@ def main():
         )
     
     st.markdown("""
-        ## The Hidden Cost of Icelandic in AI: A Token Analysis
+        ## The Hidden Cost of Icelandic in AI: A Token Analysis v1.0
+        
+        MIT License
         *By [Magnus Smari](https://www.smarason.is) (2024)*
-        <p>View the source code on <a href="https://github.com/Magnussmari/Expensive_Icelandic" target="_blank">GitHub</a></p>
+        View the source code on [GitHub](https://github.com/Magnussmari/Expensive_Icelandic)
 
 
         Based on my analysis of 101 parallel English-Icelandic sentence pairs, Icelandic text consistently requires more tokens when processed by GPT-4o. The data shows that Icelandic uses on average 187% more tokens than English for the same content, with typical Icelandic sentences requiring 40 tokens compared to English's 14 tokens.

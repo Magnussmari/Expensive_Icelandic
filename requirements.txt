@@ -1,0 +1,5 @@
+streamlit
+tiktoken
+googletrans==3.1.0a0
+pandas
+plotly
