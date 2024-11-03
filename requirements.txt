@@ -1,5 +1,9 @@
-streamlit
 tiktoken
-googletrans==3.1.0a0
 pandas
+numpy
+scipy
+matplotlib
+seaborn
+streamlit
 plotly
+googletrans==3.1.0a0

@@ -1,102 +1,102 @@
-id,english,icelandic,english_tokens,icelandic_tokens,token_difference
-1,The committee decided to postpone the meeting until next Wednesday to ensure all members could attend.,Þingið ákvað að fresta fundinum til næstu miðvikudags til að tryggja að allir félagsmenn gætu mætt.,17,30,13
-2,She carefully reviewed all the documents before signing the important contract with the new client.,Hún skoðaði vandlega öll skjöl áður en hún undirritaði mikilvægan samning við nýjan viðskiptavin.,16,29,13
-3,"After a long day at work, he enjoys relaxing by reading a good book in his favorite chair.",Eftir langan vinnudag nýtur hann þess að slaka á með því að lesa góða bók í uppáhalds stólnum sínum.,20,34,14
-4,The children were excited to explore the interactive science museum during their school field trip.,Börnin voru spennt að kanna gagnvirka vísindasmíðstofu í skólagöngu sinni.,16,25,9
-5,She has been learning to play the piano for several years and has become quite skilled at it.,Hún hefur verið að læra að spila píanó í nokkur ár og hefur orðið töluvert fær í því.,19,27,8
-6,The company announced a new initiative aimed at reducing its environmental impact over the next decade.,Fyrirtækið tilkynnti nýtt verkefni sem miðar að því að draga úr umhverfisáhrifum sínum á næstu áratug.,17,35,18
-7,During the summer vacation they plan to travel across Europe to visit several historic landmarks.,Á sumarfríiða hyggjast þau ferðast um Evrópu til að heimsækja nokkra sögulega staði.,16,28,12
-8,He decided to enroll in an advanced mathematics course to further his education and career prospects.,Hann ákvað að skrá sig í framhaldsstærðfræðikennslu til að efla þekkingu sína og starfsframa.,17,32,15
-9,The artist spent months perfecting the intricate details of the large-scale mural for the community center.,Listamaðurinn eyddi mánuðum í að fullkomna flókin smáatriði í mósaíkverkinu fyrir samfélagsmiðstöðina.,19,36,17
-10,They organized a charity event to raise funds for the local animal shelter and involved many volunteers.,Þau skipulögðu góðgerðaráætlun til að safna peningum fyrir staðbundna dýragæsluna og komu mörgum sjálfboðaliðum til þátttöku.,18,43,25
-11,The new technology allows users to connect their devices seamlessly and share information instantly.,Nýja tækni gerir notendum kleift að tengja tækin sín án truflana og deila upplýsingum tafarlaust.,15,30,15
-12,She prepared a delicious meal using fresh ingredients from the local farmers' market.,Hún undirbjó ljúffenga máltíð með ferskum hráefnum úr staðbundnum bændamarkaði.,15,28,13
-13,The university is offering scholarships to international students who demonstrate academic excellence.,Háskólinn býður upp á styrki til alþjóðlegra nemenda sem sýna akademíska framúrskarandi.,13,28,15
-14,He enjoys participating in outdoor activities such as hiking cycling and kayaking on weekends.,Hann nýtur þess að taka þátt í útivistarlífs svo sem göngu hjólaferðum og kajakferðamálum á helgum.,15,34,19
-15,The government introduced new regulations to improve workplace safety and protect employees' rights.,Ríkisstjórnin kynnti nýjar reglugerðir til að bæta öryggi á vinnustöðum og vernda réttindi starfsmanna.,15,33,18
-16,They renovated their house last summer adding a modern kitchen and expanding the living room.,Þau endurbættu húsið sitt síðasta sumar bættu við nútímalegum eldhúsi og stækktu stofuna.,16,32,16
-17,The research team published their findings in a prestigious scientific journal after years of study.,Rannsóknarteymið birtir niðurstöður sínar í virtum vísindatímariti eftir áranna langa rannsóknarvinnu.,16,32,16
-18,She volunteered at the local library helping children with their reading skills and organizing events.,Hún sjálfboðaliðaði í staðbundnum bókasafni og hjálpaði börnum með lestrarhæfni þeirra og skipulagði viðburði.,16,36,20
-19,The conference brought together experts from various fields to discuss advancements in renewable energy.,Fundurinn samdi sérfræðinga úr ýmsum greinum til að ræða framfarir í endurnýjanlegri orku.,15,29,14
-20,He wrote a detailed report analyzing the economic impact of the new policies implemented by the government.,Hann skrifaði ítarlegt skýrslu sem greindi efnahagslega áhrif nýju stefnu sem ríkisstjórnin innleiddi.,18,31,13
-21,The team worked tirelessly to complete the project before the tight deadline set by the client.,Teymið vann óþreytandi að ljúka verkefninu fyrir ströngum tímaákvörðunum sem viðskiptavinurinn setti.,17,36,19
-22,She traveled to several countries to conduct research on traditional music and its cultural significance.,Hún ferðaðist til nokkurra landa til að framkvæma rannsókn á hefðbundinni tónlist og menningarlegu mikilvægi hennar.,16,32,16
-23,The bookstore hosts weekly readings where authors share their latest works with enthusiastic audiences.,Bókasafnið heldur vikulega lestur þar sem rithöfundar deila nýjustu verkum sínum með áhugasömum áheyrendum.,15,35,20
-24,He invested in renewable energy stocks believing that sustainable businesses are the future.,Hann fjárfesti í hlutabréfum endurnýjanlegrar orku þar sem hann trúði því að sjálfbær fyrirtæki séu framtíðin.,14,36,22
-25,The city's public transportation system was upgraded to include more electric buses and improved routes.,Almenningssamgöngukerfi borgarinnar var uppfært til að innihalda fleiri rafmagnsbíla og betrumbættar leiðir.,16,35,19
-26,She organized a workshop on digital marketing strategies to help small businesses grow online.,Hún skipulagði vinnustofu um stafrænar markaðsherferðir til að hjálpa litlum fyrirtækjum að vaxa á netinu.,15,34,19
-27,The documentary provides an in-depth look at the lives of indigenous communities and their traditions.,Skjaldritið veitir ítarlega sýn á líf innfæddra samfélaga og hefðir þeirra.,17,26,9
-28,He enjoys experimenting with different cooking techniques to create unique and flavorful dishes.,Hann nýtur þess að prófa mismunandi eldunarhátt til að skapa einstaka og bragðgóða rétti.,14,30,16
-29,The startup launched a mobile application designed to help users manage their daily tasks efficiently.,Upphafsfyrirtækið lauk í að þróa farsímaforrit sem ætlað er að hjálpa notendum að stjórna daglegum verkefnum sínum skilvirkt.,16,39,23
-30,They celebrated their anniversary by taking a trip to a remote island and enjoying the serene environment.,Þau fagnaði brúðkaupsárinu sínu með því að ferðast á afskekkt eyju og njóta friðsæls umhverfis.,18,36,18
-31,The environmental organization launched a campaign to raise awareness about plastic pollution in oceans.,Umhverfisstofnunin lauk í að hefja herferð til að auka meðvitund um plastmengun í hafinu.,15,28,13
-32,She designed a unique dress for the fashion show incorporating vibrant colors and modern styles.,Hún hannaði einstaka kjól fyrir tískusýninguna sem innihélt lifandi litum og nútímalegum stíl.,16,34,18
-33,The chef experimented with new recipes to create a seasonal menu for the restaurant.,Sjóðinn reyndi nýjar uppskriftir til að búa til árstíðabundið matseðil fyrir veitingastaðinn.,15,33,18
-34,He participated in a marathon to support a charity that helps underprivileged children.,Hann tók þátt í maratonkeppni til að styðja við góðgerðarsamtök sem hjálpa óríklingum börnum.,16,31,15
-35,The software update includes several new features aimed at enhancing user experience and security.,Forritaupplýsingin inniheldur nokkrar nýjar eiginleikar sem miða að því að bæta notendaupplifun og öryggi.,15,34,19
-36,She attended a seminar on sustainable agriculture to learn about eco-friendly farming practices.,Hún mætti í námskeið um sjálfbæra landbúnaðar til að læra um umhverfisvænar búskaparaðferðir.,15,33,18
-37,The local theater group is performing a classic play that has been beloved for generations.,Staðbundið leikhópurinn leikur klassíska leik sem hefur verið ástæðulegur í kynslóðir.,16,29,13
-38,He adopted a stray dog from the animal shelter and gave it a loving home.,Hann tók upp stranda hund úr dýragæslunni og gaf honum ástúðlegt heimili.,16,25,9
-39,The museum organized an exhibition showcasing ancient artifacts from the region.,Safnið skipulagði sýningu sem sýndi fornleifar frá svæðinu.,12,18,6
-40,She completed her thesis on renewable energy sources and their economic benefits.,Hún lauk ritgerð sinni um endurnýjanlegar orkugjafa og efnahagslega kosti þeirra.,13,27,14
-41,The garden was beautifully landscaped with a variety of colorful flowers and plants.,Garðurinn var fallega snyrtilegur með fjölbreyttum litum blóma og plöntum.,14,25,11
-42,He joined a book club to discuss literature and meet fellow reading enthusiasts.,Hann gekk í bækurklúbb til að ræða um bókmenntir og hitta aðra áhugasama lesendur.,14,28,14
-43,The city council approved the construction of a new community center to serve local residents.,Borgaráðinu samþykkti byggingu nýrrar samfélagsmiðstöð til að þjóna staðbundnum íbúum.,16,30,14
-44,She adopted a minimalist lifestyle to reduce clutter and focus on what truly matters.,Hún tók upp lágmarksstíl til að draga úr óreiðu og einbeita sér að því sem skiptir raunverulega máli.,15,33,18
-45,The researchers developed a new method for recycling plastic waste more efficiently.,Rannsakendur þróuðu nýja aðferð til að endurvinna plastúrgang á skilvirkari hátt.,13,26,13
-46,He enjoys painting landscapes during his free time capturing the beauty of nature.,Hann nýtur þess að mála landslagsmyndir á frítíma sínum og fanga fegurð náttúrunnar.,14,28,14
-47,The library launched an online portal to provide digital resources for students and teachers.,Bókasafnið lauk í að koma á netgátt til að veita stafrænar auðlindir fyrir nemendur og kennara.,15,30,15
-48,She organized a community cleanup event to help keep the neighborhood parks free of litter.,Hún skipulagði samfélagslegt hreinsunarviðburð til að hjálpa til við að halda nágrenni garðunum hreinum úr rusli.,16,34,18
-49,The athlete trained rigorously every day to prepare for the upcoming championship.,Íþróttamaðurinn æfði sig afkveðið hverja dag til að undirbúa sig fyrir næsta meistaramót.,14,31,17
-50,They launched a crowdfunding campaign to support their innovative startup idea.,Þau lauk í að hefja fjármagnsöflunartilboð til að styðja við nýstárlegt upphafsáætlun þeirra.,12,36,24
-51,The new park features a playground a picnic area and a walking trail,Nýi garðurinn hefur leikvöll lautarferðasvæði og göngustíg.,13,22,9
-53,The students gathered in the auditorium for the annual science fair presentation.,Nemendurnir söfnuðust saman í fyrirlestrarsalnum fyrir árlega vísindahátíðarkynninguna.,13,30,17
-54,The chef created a unique fusion dish combining traditional and modern cooking techniques.,Kokkurinn bjó til einstakan samrunarétt sem sameinar hefðbundnar og nútímalegar eldunaraðferðir.,14,33,19
-55,The local community organized a festival to celebrate their cultural heritage and traditions.,Samfélagið skipulagði hátíð til að fagna menningararfleifð sinni og hefðum.,14,23,9
-56,She spent the weekend planting flowers and vegetables in her newly designed garden.,Hún eyddi helginni í að gróðursetja blóm og grænmeti í nýhannaða garðinum sínum.,14,30,16
-57,The museum curator carefully arranged the ancient artifacts in the new exhibition.,Safnvörðurinn raðaði fornmununum vandlega í nýju sýninguna.,13,20,7
-58,The young musician practiced diligently to prepare for his first solo performance.,Ungi tónlistarmaðurinn æfði sig kostgæfilega fyrir fyrsta einleikinn sinn.,13,23,10
-59,The architect designed an eco-friendly building using sustainable materials.,Arkitektinn hannaði umhverfisvæna byggingu með sjálfbærum efnum.,11,21,10
-60,The rescue team successfully completed their mission despite challenging weather conditions.,Björgunarsveitin lauk verkefni sínu með góðum árangri þrátt fyrir krefjandi veðurskilyrði.,12,33,21
-61,The photographer captured stunning images of the northern lights dancing across the sky.,Ljósmyndarinn tók stórkostlegar myndir af norðurljósunum dansa um himininn.,14,26,12
-62,The researchers published their groundbreaking findings in a prestigious medical journal.,Vísindamennirnir birtu byltingarkenndar niðurstöður sínar í virtum læknisfræðitímariti.,12,29,17
-63,The bakery introduced a new line of gluten-free products to meet customer demands.,Bakaríið kynnti nýja línu af glútenlausum vörum til að mæta kröfum viðskiptavina.,15,31,16
-64,The dance company performed an innovative interpretation of a classical ballet.,Dansflokkurinn flutti nýstárlega túlkun á klassískum ballettverkum.,12,21,9
-65,The city council approved plans for a new recreational park in the downtown area.,Borgarráðið samþykkti áætlanir um nýjan tómstundagarð í miðbænum.,15,27,12
-66,The teacher developed an interactive learning program to engage students online.,Kennarinn þróaði gagnvirka námsáætlun til að virkja nemendur á netinu.,12,23,11
-67,The marine biologists monitored the migration patterns of endangered whale species.,Sjávarlíffræðingarnir fylgdust með farleiðum hvala í útrýmingarhættu.,13,27,14
-68,The local theater group rehearsed extensively for their upcoming Shakespeare production.,Staðbundni leikhópurinn æfði mikið fyrir væntanlega Shakespeare sýningu.,13,22,9
-69,The engineering team designed a more efficient system for renewable energy storage.,Verkfræðiteymið hannaði skilvirkara kerfi fyrir geymslu endurnýjanlegrar orku.,13,28,15
-70,The art gallery showcased works from emerging local artists in a special exhibition.,Listasafnið sýndi verk frá upprennandi staðbundnum listamönnum í sérstakri sýningu.,14,24,10
-71,The restaurant owner sourced ingredients from local farmers to support the community.,Veitingastaðareigandinn fékk hráefni frá staðbundnum bændum til að styðja samfélagið.,13,28,15
-72,The wildlife sanctuary provided care for injured animals before releasing them.,Dýraverndunarsvæðið veitti slösuðum dýrum umönnun áður en þeim var sleppt.,12,28,16
-73,The technology company launched an innovative app for language learning.,Tæknifyrirtækið kynnti nýstárlegt forrit fyrir tungumálanám.,11,23,12
-74,The gardening club organized workshops to teach sustainable landscaping practices.,Garðyrkjufélagið skipulagði vinnustofur til að kenna sjálfbærar landslagshönnunaraðferðir.,11,32,21
-75,The historical society preserved documents from the city's founding period.,Sögufélagi varðveitti skjöl frá stofntíma borgarinnar.,11,17,6
-76,The sports team trained intensively for the upcoming international competition.,Íþróttaliðið æfði af krafti fyrir komandi alþjóðlega keppni.,12,23,11
-77,The librarian created a new reading program to encourage children's literacy.,Bókasafnsfræðingurinn bjó til nýja lestraráætlun til að hvetja til læsis barna.,12,29,17
-78,The fashion designer incorporated traditional patterns into modern clothing designs.,Fatahönnuðurinn innleiddi hefðbundin mynstur í nútímalega fatahönnun.,11,27,16
-79,The scientists conducted experiments to study climate change effects on local ecosystems.,Vísindamennirnir framkvæmdu tilraunir til að rannsaka áhrif loftslagsbreytinga á staðbundin vistkerfi.,13,33,20
-80,The volunteer group organized a beach cleanup to protect marine life.,Sjálfboðaliðahópurinn skipulagði strandarhreinsun til að vernda sjávarlíf.,12,27,15
-81,The music festival featured performances from artists representing different cultures.,Tónlistarhátíðin sýndi flutning listamanna sem fulltrúa ólíkra menningarheima.,11,28,17
-82,The urban planners designed new bike lanes to promote sustainable transportation.,Borgarskipuleggjendur hönnuðu nýjar hjólreiðabrautir til að stuðla að sjálfbærum samgöngum.,12,35,23
-83,The dental clinic offered free checkups to promote community health awareness.,Tannlæknastofan bauð upp á ókeypis skoðanir til að efla heilsuvitund samfélagsins.,13,29,16
-84,The film director captured stunning scenes of natural landscapes for the documentary.,Kvikmyndaleikstjórinn tók stórkostlegar myndir af náttúrulandslagi fyrir heimildarmyndina.,13,28,15
-85,The coffee shop introduced a new selection of locally roasted organic beans.,Kaffihúsið kynnti nýtt úrval af staðbundnum lífrænum baunum.,13,23,10
-86,The fitness instructor developed personalized training programs for each client.,Líkamsræktarþjálfarinn þróaði sérsniðnar æfingaáætlanir fyrir hvern viðskiptavin.,11,31,20
-87,The astronomy club organized stargazing events for the local community.,Stjörnuskoðunarfélagið skipulagði stjörnuskoðunarviðburði fyrir samfélagið.,13,24,11
-88,The hotel management implemented new eco-friendly practices to reduce waste.,Hótelstjórnin innleiddi nýjar umhverfisvænar aðferðir til að draga úr úrgangi.,12,28,16
-89,The youth orchestra performed classical compositions at the community center.,Ungmennasveitin flutti klassísk tónverk í félagsmiðstöðinni.,11,18,7
-90,The environmental group monitored water quality in local rivers and streams.,Umhverfishópurinn fylgdist með vatnsgæðum í staðbundnum ám og lækjum.,12,25,13
-91,The pottery studio offered classes for beginners interested in ceramic arts.,Leirlistarstofan bauð upp á námskeið fyrir byrjendur sem áhuga hafa á leirlist.,12,25,13
-92,The travel agency specialized in organizing sustainable tourism experiences.,Ferðaskrifstofan sérhæfði sig í skipulagningu sjálfbærra ferðaupplifana.,10,25,15
-93,The robotics team developed innovative solutions for automated manufacturing.,Vélmennahópurinn þróaði nýstárlegar lausnir fyrir sjálfvirka framleiðslu.,10,25,15
-94,The meditation center provided guided sessions for stress management.,Hugleiðslumiðstöðin bauð upp á leiðbeindar stundir fyrir streitustjórnun.,10,25,15
-95,The organic farm supplied fresh produce to local restaurants and markets.,Lífræni bóndabærinn útvegaði ferskt grænmeti til staðbundinna veitingastaða og markaða.,12,32,20
-96,The language school offered immersive programs for cultural exchange.,Tungumálaskólinn bauð upp á djúpstæð prógrömm fyrir menningarskipti.,10,25,15
-97,The furniture maker crafted unique pieces using reclaimed wood materials.,Húsgagnaframleiðandinn smíðaði einstök húsgögn úr endurunnu timbri.,11,26,15
-98,The cycling club organized weekly rides to promote community fitness.,Hjólreiðafélagið skipulagði vikulegar ferðir til að efla heilsu samfélagsins.,11,27,16
-99,The weather station monitored atmospheric conditions for climate research.,Veðurstöðin fylgdist með loftslagsskilyrðum fyrir loftslagsrannsóknir.,10,23,13
-100,The textile artist created intricate patterns using traditional weaving techniques.,Textíllistamaðurinn bjó til flókin mynstur með hefðbundnum vefnaðaraðferðum.,11,29,18
-101,The food bank distributed supplies to families affected by the economic crisis.,Matvælabankinn dreifði birgðum til fjölskyldna sem urðu fyrir áhrifum af efnahagskreppunni.,13,30,17
-102,The renewable energy company installed solar panels on residential buildings.,Endurnýjanleg orkufyrirtækið setti upp sólarsellur á íbúðarhúsnæði.,11,27,16
+id,english,icelandic,english_tokens,icelandic_tokens,token_difference,text_length,length_category
+1,The committee decided to postpone the meeting until next Wednesday to ensure all members could attend.,Þingið ákvað að fresta fundinum til næstu miðvikudags til að tryggja að allir félagsmenn gætu mætt.,17,46,29,102,Very Long
+2,She carefully reviewed all the documents before signing the important contract with the new client.,Hún skoðaði vandlega öll skjöl áður en hún undirritaði mikilvægan samning við nýjan viðskiptavin.,16,46,30,99,Very Long
+3,"After a long day at work, he enjoys relaxing by reading a good book in his favorite chair.",Eftir langan vinnudag nýtur hann þess að slaka á með því að lesa góða bók í uppáhalds stólnum sínum.,20,48,28,90,Long
+4,The children were excited to explore the interactive science museum during their school field trip.,Börnin voru spennt að kanna gagnvirka vísindasmíðstofu í skólagöngu sinni.,16,36,20,99,Very Long
+5,She has been learning to play the piano for several years and has become quite skilled at it.,Hún hefur verið að læra að spila píanó í nokkur ár og hefur orðið töluvert fær í því.,19,40,21,93,Long
+6,The company announced a new initiative aimed at reducing its environmental impact over the next decade.,Fyrirtækið tilkynnti nýtt verkefni sem miðar að því að draga úr umhverfisáhrifum sínum á næstu áratug.,17,51,34,103,Very Long
+7,During the summer vacation they plan to travel across Europe to visit several historic landmarks.,Á sumarfríiða hyggjast þau ferðast um Evrópu til að heimsækja nokkra sögulega staði.,16,39,23,97,Very Long
+8,He decided to enroll in an advanced mathematics course to further his education and career prospects.,Hann ákvað að skrá sig í framhaldsstærðfræðikennslu til að efla þekkingu sína og starfsframa.,17,43,26,101,Very Long
+9,The artist spent months perfecting the intricate details of the large-scale mural for the community center.,Listamaðurinn eyddi mánuðum í að fullkomna flókin smáatriði í mósaíkverkinu fyrir samfélagsmiðstöðina.,19,48,29,107,Very Long
+10,They organized a charity event to raise funds for the local animal shelter and involved many volunteers.,Þau skipulögðu góðgerðaráætlun til að safna peningum fyrir staðbundna dýragæsluna og komu mörgum sjálfboðaliðum til þátttöku.,18,61,43,104,Very Long
+11,The new technology allows users to connect their devices seamlessly and share information instantly.,Nýja tækni gerir notendum kleift að tengja tækin sín án truflana og deila upplýsingum tafarlaust.,15,41,26,100,Very Long
+12,She prepared a delicious meal using fresh ingredients from the local farmers' market.,Hún undirbjó ljúffenga máltíð með ferskum hráefnum úr staðbundnum bændamarkaði.,15,39,24,85,Long
+13,The university is offering scholarships to international students who demonstrate academic excellence.,Háskólinn býður upp á styrki til alþjóðlegra nemenda sem sýna akademíska framúrskarandi.,13,41,28,102,Very Long
+14,He enjoys participating in outdoor activities such as hiking cycling and kayaking on weekends.,Hann nýtur þess að taka þátt í útivistarlífs svo sem göngu hjólaferðum og kajakferðamálum á helgum.,16,46,30,94,Long
+15,The government introduced new regulations to improve workplace safety and protect employees' rights.,Ríkisstjórnin kynnti nýjar reglugerðir til að bæta öryggi á vinnustöðum og vernda réttindi starfsmanna.,15,49,34,100,Very Long
+16,They renovated their house last summer adding a modern kitchen and expanding the living room.,Þau endurbættu húsið sitt síðasta sumar bættu við nútímalegum eldhúsi og stækktu stofuna.,16,45,29,93,Long
+17,The research team published their findings in a prestigious scientific journal after years of study.,Rannsóknarteymið birtir niðurstöður sínar í virtum vísindatímariti eftir áranna langa rannsóknarvinnu.,16,49,33,100,Very Long
+18,She volunteered at the local library helping children with their reading skills and organizing events.,Hún sjálfboðaliðaði í staðbundnum bókasafni og hjálpaði börnum með lestrarhæfni þeirra og skipulagði viðburði.,16,55,39,102,Very Long
+19,The conference brought together experts from various fields to discuss advancements in renewable energy.,Fundurinn samdi sérfræðinga úr ýmsum greinum til að ræða framfarir í endurnýjanlegri orku.,15,41,26,104,Very Long
+20,He wrote a detailed report analyzing the economic impact of the new policies implemented by the government.,Hann skrifaði ítarlegt skýrslu sem greindi efnahagslega áhrif nýju stefnu sem ríkisstjórnin innleiddi.,18,48,30,107,Very Long
+21,The team worked tirelessly to complete the project before the tight deadline set by the client.,Teymið vann óþreytandi að ljúka verkefninu fyrir ströngum tímaákvörðunum sem viðskiptavinurinn setti.,17,48,31,95,Long
+22,She traveled to several countries to conduct research on traditional music and its cultural significance.,Hún ferðaðist til nokkurra landa til að framkvæma rannsókn á hefðbundinni tónlist og menningarlegu mikilvægi hennar.,16,50,34,105,Very Long
+23,The bookstore hosts weekly readings where authors share their latest works with enthusiastic audiences.,Bókasafnið heldur vikulega lestur þar sem rithöfundar deila nýjustu verkum sínum með áhugasömum áheyrendum.,15,44,29,103,Very Long
+24,He invested in renewable energy stocks believing that sustainable businesses are the future.,Hann fjárfesti í hlutabréfum endurnýjanlegrar orku þar sem hann trúði því að sjálfbær fyrirtæki séu framtíðin.,14,52,38,92,Long
+25,The city's public transportation system was upgraded to include more electric buses and improved routes.,Almenningssamgöngukerfi borgarinnar var uppfært til að innihalda fleiri rafmagnsbíla og betrumbættar leiðir.,17,47,30,104,Very Long
+26,She organized a workshop on digital marketing strategies to help small businesses grow online.,Hún skipulagði vinnustofu um stafrænar markaðsherferðir til að hjálpa litlum fyrirtækjum að vaxa á netinu.,15,49,34,94,Long
+27,The documentary provides an in-depth look at the lives of indigenous communities and their traditions.,Skjaldritið veitir ítarlega sýn á líf innfæddra samfélaga og hefðir þeirra.,17,38,21,102,Very Long
+28,He enjoys experimenting with different cooking techniques to create unique and flavorful dishes.,Hann nýtur þess að prófa mismunandi eldunarhátt til að skapa einstaka og bragðgóða rétti.,14,38,24,96,Long
+29,The startup launched a mobile application designed to help users manage their daily tasks efficiently.,Upphafsfyrirtækið lauk í að þróa farsímaforrit sem ætlað er að hjálpa notendum að stjórna daglegum verkefnum sínum skilvirkt.,16,57,41,102,Very Long
+30,They celebrated their anniversary by taking a trip to a remote island and enjoying the serene environment.,Þau fagnaði brúðkaupsárinu sínu með því að ferðast á afskekkt eyju og njóta friðsæls umhverfis.,18,48,30,106,Very Long
+31,The environmental organization launched a campaign to raise awareness about plastic pollution in oceans.,Umhverfisstofnunin lauk í að hefja herferð til að auka meðvitund um plastmengun í hafinu.,15,41,26,104,Very Long
+32,She designed a unique dress for the fashion show incorporating vibrant colors and modern styles.,Hún hannaði einstaka kjól fyrir tískusýninguna sem innihélt lifandi litum og nútímalegum stíl.,16,41,25,96,Long
+33,The chef experimented with new recipes to create a seasonal menu for the restaurant.,Sjóðinn reyndi nýjar uppskriftir til að búa til árstíðabundið matseðil fyrir veitingastaðinn.,15,43,28,84,Medium
+34,He participated in a marathon to support a charity that helps underprivileged children.,Hann tók þátt í maratonkeppni til að styðja við góðgerðarsamtök sem hjálpa óríklingum börnum.,15,43,28,87,Long
+35,The software update includes several new features aimed at enhancing user experience and security.,Forritaupplýsingin inniheldur nokkrar nýjar eiginleikar sem miða að því að bæta notendaupplifun og öryggi.,15,48,33,98,Very Long
+36,She attended a seminar on sustainable agriculture to learn about eco-friendly farming practices.,Hún mætti í námskeið um sjálfbæra landbúnaðar til að læra um umhverfisvænar búskaparaðferðir.,15,48,33,96,Long
+37,The local theater group is performing a classic play that has been beloved for generations.,Staðbundið leikhópurinn leikur klassíska leik sem hefur verið ástæðulegur í kynslóðir.,16,40,24,91,Long
+38,He adopted a stray dog from the animal shelter and gave it a loving home.,Hann tók upp stranda hund úr dýragæslunni og gaf honum ástúðlegt heimili.,16,33,17,73,Short
+39,The museum organized an exhibition showcasing ancient artifacts from the region.,Safnið skipulagði sýningu sem sýndi fornleifar frá svæðinu.,12,29,17,80,Medium
+40,She completed her thesis on renewable energy sources and their economic benefits.,Hún lauk ritgerð sinni um endurnýjanlegar orkugjafa og efnahagslega kosti þeirra.,13,36,23,81,Medium
+41,The garden was beautifully landscaped with a variety of colorful flowers and plants.,Garðurinn var fallega snyrtilegur með fjölbreyttum litum blóma og plöntum.,15,33,18,84,Medium
+42,He joined a book club to discuss literature and meet fellow reading enthusiasts.,Hann gekk í bækurklúbb til að ræða um bókmenntir og hitta aðra áhugasama lesendur.,14,39,25,80,Medium
+43,The city council approved the construction of a new community center to serve local residents.,Borgaráðinu samþykkti byggingu nýrrar samfélagsmiðstöð til að þjóna staðbundnum íbúum.,16,46,30,94,Long
+44,She adopted a minimalist lifestyle to reduce clutter and focus on what truly matters.,Hún tók upp lágmarksstíl til að draga úr óreiðu og einbeita sér að því sem skiptir raunverulega máli.,15,46,31,85,Long
+45,The researchers developed a new method for recycling plastic waste more efficiently.,Rannsakendur þróuðu nýja aðferð til að endurvinna plastúrgang á skilvirkari hátt.,13,38,25,84,Medium
+46,He enjoys painting landscapes during his free time capturing the beauty of nature.,Hann nýtur þess að mála landslagsmyndir á frítíma sínum og fanga fegurð náttúrunnar.,14,37,23,82,Medium
+47,The library launched an online portal to provide digital resources for students and teachers.,Bókasafnið lauk í að koma á netgátt til að veita stafrænar auðlindir fyrir nemendur og kennara.,15,42,27,93,Long
+48,She organized a community cleanup event to help keep the neighborhood parks free of litter.,Hún skipulagði samfélagslegt hreinsunarviðburð til að hjálpa til við að halda nágrenni garðunum hreinum úr rusli.,16,50,34,91,Long
+49,The athlete trained rigorously every day to prepare for the upcoming championship.,Íþróttamaðurinn æfði sig afkveðið hverja dag til að undirbúa sig fyrir næsta meistaramót.,14,41,27,82,Medium
+50,They launched a crowdfunding campaign to support their innovative startup idea.,Þau lauk í að hefja fjármagnsöflunartilboð til að styðja við nýstárlegt upphafsáætlun þeirra.,12,48,36,79,Short
+51,The new park features a playground a picnic area and a walking trail,Nýi garðurinn hefur leikvöll lautarferðasvæði og göngustíg.,13,29,16,68,Short
+53,The students gathered in the auditorium for the annual science fair presentation.,Nemendurnir söfnuðust saman í fyrirlestrarsalnum fyrir árlega vísindahátíðarkynninguna.,14,39,25,81,Medium
+54,The chef created a unique fusion dish combining traditional and modern cooking techniques.,Kokkurinn bjó til einstakan samrunarétt sem sameinar hefðbundnar og nútímalegar eldunaraðferðir.,14,40,26,90,Long
+55,The local community organized a festival to celebrate their cultural heritage and traditions.,Samfélagið skipulagði hátíð til að fagna menningararfleifð sinni og hefðum.,14,34,20,93,Long
+56,She spent the weekend planting flowers and vegetables in her newly designed garden.,Hún eyddi helginni í að gróðursetja blóm og grænmeti í nýhannaða garðinum sínum.,14,40,26,83,Medium
+57,The museum curator carefully arranged the ancient artifacts in the new exhibition.,Safnvörðurinn raðaði fornmununum vandlega í nýju sýninguna.,13,30,17,82,Medium
+58,The young musician practiced diligently to prepare for his first solo performance.,Ungi tónlistarmaðurinn æfði sig kostgæfilega fyrir fyrsta einleikinn sinn.,13,33,20,82,Medium
+59,The architect designed an eco-friendly building using sustainable materials.,Arkitektinn hannaði umhverfisvæna byggingu með sjálfbærum efnum.,11,30,19,76,Short
+60,The rescue team successfully completed their mission despite challenging weather conditions.,Björgunarsveitin lauk verkefni sínu með góðum árangri þrátt fyrir krefjandi veðurskilyrði.,12,44,32,92,Long
+61,The photographer captured stunning images of the northern lights dancing across the sky.,Ljósmyndarinn tók stórkostlegar myndir af norðurljósunum dansa um himininn.,14,34,20,88,Long
+62,The researchers published their groundbreaking findings in a prestigious medical journal.,Vísindamennirnir birtu byltingarkenndar niðurstöður sínar í virtum læknisfræðitímariti.,12,41,29,89,Long
+63,The bakery introduced a new line of gluten-free products to meet customer demands.,Bakaríið kynnti nýja línu af glútenlausum vörum til að mæta kröfum viðskiptavina.,15,41,26,82,Medium
+64,The dance company performed an innovative interpretation of a classical ballet.,Dansflokkurinn flutti nýstárlega túlkun á klassískum ballettverkum.,12,28,16,79,Short
+65,The city council approved plans for a new recreational park in the downtown area.,Borgarráðið samþykkti áætlanir um nýjan tómstundagarð í miðbænum.,15,35,20,81,Medium
+66,The teacher developed an interactive learning program to engage students online.,Kennarinn þróaði gagnvirka námsáætlun til að virkja nemendur á netinu.,12,33,21,80,Medium
+67,The marine biologists monitored the migration patterns of endangered whale species.,Sjávarlíffræðingarnir fylgdust með farleiðum hvala í útrýmingarhættu.,13,37,24,83,Medium
+68,The local theater group rehearsed extensively for their upcoming Shakespeare production.,Staðbundni leikhópurinn æfði mikið fyrir væntanlega Shakespeare sýningu.,13,32,19,88,Long
+69,The engineering team designed a more efficient system for renewable energy storage.,Verkfræðiteymið hannaði skilvirkara kerfi fyrir geymslu endurnýjanlegrar orku.,13,36,23,83,Medium
+70,The art gallery showcased works from emerging local artists in a special exhibition.,Listasafnið sýndi verk frá upprennandi staðbundnum listamönnum í sérstakri sýningu.,14,36,22,84,Medium
+71,The restaurant owner sourced ingredients from local farmers to support the community.,Veitingastaðareigandinn fékk hráefni frá staðbundnum bændum til að styðja samfélagið.,13,36,23,85,Long
+72,The wildlife sanctuary provided care for injured animals before releasing them.,Dýraverndunarsvæðið veitti slösuðum dýrum umönnun áður en þeim var sleppt.,12,37,25,79,Short
+73,The technology company launched an innovative app for language learning.,Tæknifyrirtækið kynnti nýstárlegt forrit fyrir tungumálanám.,11,29,18,72,Short
+74,The gardening club organized workshops to teach sustainable landscaping practices.,Garðyrkjufélagið skipulagði vinnustofur til að kenna sjálfbærar landslagshönnunaraðferðir.,11,41,30,82,Medium
+75,The historical society preserved documents from the city's founding period.,Sögufélagi varðveitti skjöl frá stofntíma borgarinnar.,12,26,14,75,Short
+76,The sports team trained intensively for the upcoming international competition.,Íþróttaliðið æfði af krafti fyrir komandi alþjóðlega keppni.,12,34,22,79,Short
+77,The librarian created a new reading program to encourage children's literacy.,Bókasafnsfræðingurinn bjó til nýja lestraráætlun til að hvetja til læsis barna.,13,35,22,77,Short
+78,The fashion designer incorporated traditional patterns into modern clothing designs.,Fatahönnuðurinn innleiddi hefðbundin mynstur í nútímalega fatahönnun.,11,36,25,84,Medium
+79,The scientists conducted experiments to study climate change effects on local ecosystems.,Vísindamennirnir framkvæmdu tilraunir til að rannsaka áhrif loftslagsbreytinga á staðbundin vistkerfi.,13,45,32,89,Long
+80,The volunteer group organized a beach cleanup to protect marine life.,Sjálfboðaliðahópurinn skipulagði strandarhreinsun til að vernda sjávarlíf.,12,34,22,69,Short
+81,The music festival featured performances from artists representing different cultures.,Tónlistarhátíðin sýndi flutning listamanna sem fulltrúa ólíkra menningarheima.,11,33,22,86,Long
+82,The urban planners designed new bike lanes to promote sustainable transportation.,Borgarskipuleggjendur hönnuðu nýjar hjólreiðabrautir til að stuðla að sjálfbærum samgöngum.,12,43,31,81,Medium
+83,The dental clinic offered free checkups to promote community health awareness.,Tannlæknastofan bauð upp á ókeypis skoðanir til að efla heilsuvitund samfélagsins.,13,38,25,78,Short
+84,The film director captured stunning scenes of natural landscapes for the documentary.,Kvikmyndaleikstjórinn tók stórkostlegar myndir af náttúrulandslagi fyrir heimildarmyndina.,13,43,30,85,Long
+85,The coffee shop introduced a new selection of locally roasted organic beans.,Kaffihúsið kynnti nýtt úrval af staðbundnum lífrænum baunum.,13,30,17,76,Short
+86,The fitness instructor developed personalized training programs for each client.,Líkamsræktarþjálfarinn þróaði sérsniðnar æfingaáætlanir fyrir hvern viðskiptavin.,11,45,34,80,Medium
+87,The astronomy club organized stargazing events for the local community.,Stjörnuskoðunarfélagið skipulagði stjörnuskoðunarviðburði fyrir samfélagið.,13,39,26,71,Short
+88,The hotel management implemented new eco-friendly practices to reduce waste.,Hótelstjórnin innleiddi nýjar umhverfisvænar aðferðir til að draga úr úrgangi.,12,39,27,76,Short
+89,The youth orchestra performed classical compositions at the community center.,Ungmennasveitin flutti klassísk tónverk í félagsmiðstöðinni.,11,29,18,77,Short
+90,The environmental group monitored water quality in local rivers and streams.,Umhverfishópurinn fylgdist með vatnsgæðum í staðbundnum ám og lækjum.,12,33,21,76,Short
+91,The pottery studio offered classes for beginners interested in ceramic arts.,Leirlistarstofan bauð upp á námskeið fyrir byrjendur sem áhuga hafa á leirlist.,12,37,25,76,Short
+92,The travel agency specialized in organizing sustainable tourism experiences.,Ferðaskrifstofan sérhæfði sig í skipulagningu sjálfbærra ferðaupplifana.,10,36,26,76,Short
+93,The robotics team developed innovative solutions for automated manufacturing.,Vélmennahópurinn þróaði nýstárlegar lausnir fyrir sjálfvirka framleiðslu.,10,37,27,77,Short
+94,The meditation center provided guided sessions for stress management.,Hugleiðslumiðstöðin bauð upp á leiðbeindar stundir fyrir streitustjórnun.,10,35,25,69,Short
+95,The organic farm supplied fresh produce to local restaurants and markets.,Lífræni bóndabærinn útvegaði ferskt grænmeti til staðbundinna veitingastaða og markaða.,12,43,31,73,Short
+96,The language school offered immersive programs for cultural exchange.,Tungumálaskólinn bauð upp á djúpstæð prógrömm fyrir menningarskipti.,10,32,22,69,Short
+97,The furniture maker crafted unique pieces using reclaimed wood materials.,Húsgagnaframleiðandinn smíðaði einstök húsgögn úr endurunnu timbri.,11,33,22,73,Short
+98,The cycling club organized weekly rides to promote community fitness.,Hjólreiðafélagið skipulagði vikulegar ferðir til að efla heilsu samfélagsins.,11,37,26,69,Short
+99,The weather station monitored atmospheric conditions for climate research.,Veðurstöðin fylgdist með loftslagsskilyrðum fyrir loftslagsrannsóknir.,10,34,24,74,Short
+100,The textile artist created intricate patterns using traditional weaving techniques.,Textíllistamaðurinn bjó til flókin mynstur með hefðbundnum vefnaðaraðferðum.,11,35,24,83,Medium
+101,The food bank distributed supplies to families affected by the economic crisis.,Matvælabankinn dreifði birgðum til fjölskyldna sem urðu fyrir áhrifum af efnahagskreppunni.,13,42,29,79,Short
+102,The renewable energy company installed solar panels on residential buildings.,Endurnýjanleg orkufyrirtækið setti upp sólarsellur á íbúðarhúsnæði.,11,34,23,77,Short
